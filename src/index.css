@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(104, 223, 149);
+}
+.wrapper{
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.custom-form{
+  width: 45%;
+  height: auto;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.input-and-btn{
+  justify-content: center;
+  display: flex;
+  gap: 1%;
+  
+}
+input {
+  height: 30px;
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.input-and-btn button {
+  background-color: rgb(69, 162, 224);
+  border-radius: 5px;
+}
+
+.todo-box{
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+
+  /* align-items:center ; */
+  justify-content:space-between;
+  background-color: beige;
+  border: 1px solid black;
+margin-bottom: 5px;
+}
+
+.todo-box .content{
+  display: flex;
+  background-color: beige;
+  margin-bottom: 5px;
+  padding: 3px;
+}
+.todo-box .content p{
+  margin-left: 30px;
+  background-color: beige;
+}
+
+.todo-box button{
+  margin: 0 5px;
+  width: 40px;
+  /* height: 29px; */
+  background-color: red;
+  margin-right: 0%;
+}
+.nextPrev{
+        display: flex;
+        justify-content: center;
+        /* margin-top: 20px; */
+   
+    }
+    .nextPrev button{ 
+     height: 30px;
+        width: 50px;
+        background-color: rgb(126, 126, 209);
+        border-radius: 10px;
+        margin: 40px;
+    }
